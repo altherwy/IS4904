@@ -2,10 +2,10 @@
 
  - In Android Studio, go to file -> New -> New Flutter Project
  
-![New Project Window](https://github.com/altherwy/IS4904/blob/main/pics/New%20Project%20Dialog.jpg?raw=true)
+![New Project Window](https://github.com/altherwy/IS4904/blob/main/pics/New_Project_Dialog.jpg?raw=true)
 - From the window above, choose **Flutter** from the sidebar and click **Next**. The **Flutter SDK path** should have the location of the flutter SDK. If not, then there exist a problem in installing Flutter. Visit [Installing Flutter](https://docs.flutter.dev/get-started/install)
 
-![project_name](https://github.com/altherwy/IS4904/blob/main/pics/Project%20Name%20Dialog.jpg?raw=true)
+![project_name](https://github.com/altherwy/IS4904/blob/main/pics/Project_Name_Dialog.jpg?raw=true)
 - From the window above,
 	- Choose a valid project name in **Project Name**. 
 	- Choose a location for the project in **Project Location**.
@@ -28,10 +28,21 @@ By default, the Flutter framework creates a counter application that increases a
  4. In the **System Image** window, choose an *operating system*, for example, *Q*. The chosen operating system will start downloading. After the operating system finish downloading. Click **Next**, which will open **Android Virtual Device (AVD)** window. 
  5. In then **Android Virtual Device (AVD)** window,
 	 a. Choose a name for the phone in **AVD Name**.
-	 b. 
- 6. List item
+	 b. Choose the **Startup orientation** to either *Portrait* or *Landscape*.
+	 c. You can leave the rest of the settings as is. 
+	 d. Click **Finish** to create the virtual device.
+ 6. In the **Device Manager** window, click the "*play*" button to run the recently created virtual device. This will open **Emulator** window. 
+ 7. After a while, the phone will power on and be ready to "*accept*" a Flutter application. 
 
- 
+## Run the counter application
+As mentioned earlier, the Flutter framework creates a counter application by default. To run the application,
+
+ 1. Go to **Run** -> **Run "main.dart"** to run the application. This will take a while if the application runs for the first time. To check the progress of building the application, check the the bottom right corner of the main window.
+ 2. After the application loads up the following screen will appear,
+
+<p align = "center">
+<img src = "https://github.com/altherwy/IS4904/blob/main/pics/Flutter_Demo_Home_Page.jpg?raw=true" width = "30%" height = "600">
+ </p>
 	
 
 ## Create files and folders
