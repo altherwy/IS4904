@@ -2,7 +2,7 @@
 
  - In Android Studio, go to file -> New -> New Flutter Project
  <p align= "center">
- <img src = "https://github.com/altherwy/IS4904/blob/main/pics/New_Project_Dialog.jpg?raw=true" width = "65%" height = "600"/>
+ <img src = "https://github.com/altherwy/IS4904/blob/main/pics/New_Project_Dialog.jpg?raw=true"/>
  
 - From the window above, choose **Flutter** from the sidebar and click **Next**. The **Flutter SDK path** should have the location of the flutter SDK. If not, then there exist a problem in installing Flutter. Visit [Installing Flutter](https://docs.flutter.dev/get-started/install)
  <p align= "center">
