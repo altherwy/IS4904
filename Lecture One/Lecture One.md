@@ -43,7 +43,7 @@ As mentioned earlier, the Flutter framework creates a counter application by def
  2. After the application loads up the following screen will appear,
 
 <p align = "center">
-<img src = "https://github.com/altherwy/IS4904/blob/main/pics/Flutter_Demo_Home_Page.jpg?raw=true" width = "30%" height = "600"/>
+<img src = "https://github.com/altherwy/IS4904/blob/main/pics/Flutter_Demo_Home_Page.jpg?raw=true"/>
 
 3. To make sure that the application, and Flutter framework, are working properly, press the **plus** button to increase the number underneath "*You have pushed the button this many times:*" by one. If it working properly, the number should increase by one.
 4. That's it, you have created and run your first Flutter application.
