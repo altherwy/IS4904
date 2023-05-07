@@ -107,7 +107,8 @@ The above code displays the following,
 ![https://github.com/altherwy/IS4904/blob/main/pics/widgets.jpg?raw=true](https://github.com/altherwy/IS4904/blob/main/pics/widgets.jpg?raw=true)
 
 
-This concludes this lesson. 
+# Summary
+This lesson on Flutter widgets covers the Scaffold widget for structuring other widgets, the Text widget for displaying text, the Column widget for organizing widgets vertically, and the ElevatedButton widget for creating buttons.
 
 ---
 # Tutorial
