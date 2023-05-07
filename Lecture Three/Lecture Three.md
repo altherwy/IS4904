@@ -105,7 +105,10 @@ class MyApp extends StatelessWidget {
 The above code displays the following,
 ![](https://github.com/altherwy/IS4904/blob/main/pics/widgets.jpg?raw=true)
 
+This concludes this lesson. 
 ---
 # Tutorial
 - Reformat the last code to organize the widgets *horizontally* (Hint: lookup *Row*)
-- 
+- Write the code to generate the following snapshot
+![](https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true)
+
