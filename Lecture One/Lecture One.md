@@ -47,3 +47,6 @@ As mentioned earlier, the Flutter framework creates a counter application by def
 
 3. To make sure that the application, and Flutter framework, are working properly, press the **plus** button to increase the number underneath "*You have pushed the button this many times:*" by one. If it working properly, the number should increase by one.
 4. That's it, you have created and run your first Flutter application.
+
+# Summary
+This lecture provides a step-by-step guide to starting a new Flutter project in Android Studio, creating a virtual device to run the project, and running the default counter application.
