@@ -70,7 +70,7 @@ Column(children: [Text('First Text'), Text('Second Text'), Text('Third Text')])
 ```dart
 ElevatedButton( onPressed: ..., child: ...)
 ```
-*ElevatedButton* should at least have two main named parameters: 
+*ElevatedButton* should at least have two named parameters: 
 - **onPressed**: it accepts a function as a value, which is called when the button is **pressed**.
 - **child**: it accepts a *text* or an *icon* to display on the button. 
 ---
