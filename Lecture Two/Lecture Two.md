@@ -74,8 +74,10 @@ After running the app (**Run-> Run ‘main.dart’**), the following screen shou
 This concludes Lesson Two.
 
 ---
-
+# Summary
+This lesson discuss how to create a simple Flutter application by creating a new project. It explains how to create a **widget tree**, how to create a custom widget by extending *StatelessWidget*, and how to call the root widget in the app using *runApp*. 
 # Tutorials
 
 - Change the text in *Text* widget inside *MaterialApp* to your name.
 - Change the color of the *Text* widget to **white**. (Hint: lookup TextStyle widget)
+- Create a new custom widget that has a *Text* widget that displays the following phrase: 'Flutter uses Dart'
