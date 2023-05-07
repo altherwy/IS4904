@@ -2,7 +2,7 @@
 
 # Creating your first program
 
-In this lesson, we will build a simple Flutter application. ## Creating a new project We start by creating a new project as explained in [Lesson One](https://github.com/altherwy/IS4904/blob/main/Lecture%20One/Lecture%20One.md). Then, we delete everything in *main.dart*, which is found in [*ROOT*->*lib*->*main.dart*]. *ROOT* is the root folder of your app. By default, Android Studio will create a new project and displays the *main.dart* file. After deleting everything, add the following to *main.dart*,
+In this lesson, we will build a simple Flutter application. ## Creating a new project We start by creating a new project as explained in [Lesson One](https://github.com/altherwy/IS4904/blob/main/Lecture%20One/Lecture%20One.md). Then, we delete everything in *main.dart*, which is found in [**ROOT->lib->main.dart**]. *ROOT* is the root folder of your app. By default, Android Studio will create a new project and displays the *main.dart* file. After deleting everything, add the following to *main.dart*,
 
 ```dart
 void main(){
@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
 
 *runApp* is a function in the *material.dart* to call the **root** widget in the app. In other words, the first widget in the widget tree.
 
-After running the app (*Run-> Run ‘main.dart’*), the following screen should appear,
+After running the app (**Run-> Run ‘main.dart’**), the following screen should appear,
 
 ![https://github.com/altherwy/IS4904/blob/main/pics/Hello%20program.jpg?raw=true](https://github.com/altherwy/IS4904/blob/main/pics/Hello%20program.jpg?raw=true)
 
