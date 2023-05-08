@@ -77,7 +77,7 @@ Intel Hardware Accelerated Execution Manager (Intel HAXM) is a hardware-accelera
 <img width="958" alt="Screenshot 2023-05-08 001548" src="https://user-images.githubusercontent.com/115354885/236876407-0210b708-b2a8-4bc5-a6fc-6c4a60796798.png">
 
 
-1. if virtualization is disabled then follow this short [youtube video](https://youtu.be/MFuxInYlpN8) to help you enable virtualization  
+3. if virtualization is disabled then follow this short [youtube video](https://youtu.be/MFuxInYlpN8) to help you enable virtualization  
 
 ## Step 3: Configure HAXM with Android Studio
 
