@@ -84,7 +84,7 @@ Intel Hardware Accelerated Execution Manager (Intel HAXM) is a hardware-accelera
 2. Click on the "SDK Tools" tab and scroll down to "Intel HAXM" in the list of available tools.
 3. Check the box next to "Intel HAXM" and click "Apply" to install it.
 
-![Screenshot 2023-05-08 090032.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_090032.png?raw=true)
+<script src="https://gist.github.com/FaisalTurki01/b2a005312d6369b40db59d8ca7cc6199.js"></script>
 
 ## Step 4: Verify Intel HAXM Installation
 
