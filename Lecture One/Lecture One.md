@@ -67,14 +67,14 @@ Intel Hardware Accelerated Execution Manager (Intel HAXM) is a hardware-accelera
 1. Go to the [Intel® HAXM download page](https://github.com/intel/haxm/releases).
 2. Scroll down to the "Downloads" section and download the version of Intel HAXM that matches your operating system.
 
-![Screenshot (39).png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_(39).png)
+![Screenshot (39).png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_(39).png?raw=true)
 
 ## Step 2: Install Intel® HAXM
 
 1. Open the downloaded file and follow the installation instructions.
 2. after the installation is completed, you may want to check if virtualization  is enabled on your computer, to check open task manager → performance virtualization should be enabled
 
-![Screenshot 2023-05-08 001548.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_001548.png)
+![Screenshot 2023-05-08 001548.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_001548.png?raw=true)
 
 1. if virtualization is disabled then follow this short [youtube video](https://youtu.be/MFuxInYlpN8) to help you enable virtualization  
 
@@ -84,7 +84,7 @@ Intel Hardware Accelerated Execution Manager (Intel HAXM) is a hardware-accelera
 2. Click on the "SDK Tools" tab and scroll down to "Intel HAXM" in the list of available tools.
 3. Check the box next to "Intel HAXM" and click "Apply" to install it.
 
-![Screenshot 2023-05-08 090032.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_090032.png)
+![Screenshot 2023-05-08 090032.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_090032.png?raw=true)
 
 ## Step 4: Verify Intel HAXM Installation
 
@@ -94,6 +94,6 @@ Intel Hardware Accelerated Execution Manager (Intel HAXM) is a hardware-accelera
 4. On the "Verify Configuration"  click "Finish".
 5. Wait for the virtual device to start up. If Intel HAXM is installed and configured correctly, you should see a message in the Android Studio console that says "Emulator: HAX is working and emulator runs in fast virt mode".
 
-![Screenshot 2023-05-08 092021.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_092021.png)
+![Screenshot 2023-05-08 092021.png](How%20to%20Install%20Intel%20HAXM%20and%20Configure%20It%20with%20An%20916b39248ec24252a559e9d6c694470d/Screenshot_2023-05-08_092021.png?raw=true)
 
 Congratulations! You have successfully installed and configured Intel HAXM with Android Studio. You can now run and test Android apps on your computer faster than ever before.	
