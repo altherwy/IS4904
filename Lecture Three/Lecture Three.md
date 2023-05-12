@@ -108,7 +108,7 @@ The above code displays the following,
 
 
 # Summary
-This lesson on Flutter widgets covers the Scaffold widget for structuring other widgets, the Text widget for displaying text, the Column widget for organizing widgets vertically, and the ElevatedButton widget for creating buttons.
+This lesson on Flutter widgets covers the Scaffold widget for structuring other widgets, the Text widget for displaying text, the Column widget for organizing widgets vertically, and the ElevatedButton widget for creating buttons.To learn more about widgets, check out the official [widget catalog](https://docs.flutter.dev/ui/widgets).
 
 ---
 # Tutorial
