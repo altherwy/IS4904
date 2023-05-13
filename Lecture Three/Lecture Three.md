@@ -154,15 +154,18 @@ The above code displays the following,
 
 
 # Summary
-This lesson on Flutter widgets covers the Scaffold widget for structuring other widgets, the Text widget for displaying text, the Column widget for organizing widgets vertically, and the ElevatedButton widget for creating buttons.To learn more about widgets, check out the official [widget catalog](https://docs.flutter.dev/ui/widgets).
+This lesson covers different widgets such as the Scaffold widget for structuring other widgets, the Text widget for displaying text, the Column widget for organizing widgets vertically, and the ElevatedButton widget for creating buttons.To learn more about widgets, check out the official [widget catalog](https://docs.flutter.dev/ui/widgets).
 
 ---
 # Tutorial
 - Reformat the last code to organize the widgets *horizontally* (Hint: lookup *Row*)
+- Reformat the last code to change the start and end colors of the gradient effect (Hint: lookup *begin* and *end* in *LinearGradient*)
+- In Flutter, it is considered a good practice to split the classes into different **.dart** files. Thus, create a new file called *my_app.dart* and move the *MyApp* class to it. Then, import the *my_app.dart* file into the *main.dart* file and fix any errors.
+- Reformat the last code to create a new widget called *MyButton* that returns the *ElevatedButton* widget in the code. However, it should accept the *text* as a parameter. Then, use the *MyButton* widget to create two buttons: *Submit* and *Cancel*.
 - Write the code to generate the following snapshot
 
 ![https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true](https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true)
 
-- Given the following code,
+-
   
   ```dart
