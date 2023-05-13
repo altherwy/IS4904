@@ -63,7 +63,19 @@ In terms of visibility, widgets can either be **Visible**, **Non Visible**, or c
 ```dart
 Column(children: [Text('First Text'), Text('Second Text'), Text('Third Text')])
 ```
+## Container
+*Container* is a widget that allows you to customize the appearance of other widgets. For example, you can add a gradient affect to a *Text* widget using *Container* widget,
 
+```dart
+Container(
+  decoration: BoxDecoration(
+    gradient: LinearGradient(
+      colors: [Colors.red, Colors.blue],
+    ),
+  ),
+  child: Text('text here'),
+)
+```
 ## ElevatedButton
 *ElevatedButton* is a button and it replaces the deprecated *RaisedButton*. To display an *ElevatedButton*
 
