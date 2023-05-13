@@ -64,8 +64,7 @@ In terms of visibility, widgets can either be **Visible**, **Non Visible**, or c
 Column(children: [Text('First Text'), Text('Second Text'), Text('Third Text')])
 ```
 ## Container
-*Container* is a widget that allows you to customize the appearance of other widgets. For example, you can add a gradient affect to a *Text* widget using *Container* widget,
-
+*Container* is a widget that allows you to encapsulate other widgets and customize their appearances. For example, you can add a gradient affect to a *Text* widget,,
 ```dart
 Container(
   decoration: BoxDecoration(
@@ -76,6 +75,15 @@ Container(
   child: Text('text here'),
 )
 ```
+The *Container* widget in the code above contains two new widgets: *BoxDecoration* and *LinearGradient*. *BoxDecoration* is a widget that allows you to customize the appearance of the parent widget, *Container* in this case. One type of gradient effect in *BoxDecoration* is *LinearGradient*. *LinearGradient* is a widget that allows you to add a linear gradient effect.
+
+## Center
+*Center* is a widget that allows you to **center** other widgets. For example, to center a *Text* widget,
+
+```dart
+Center(child: Text('text here'))
+```
+
 ## ElevatedButton
 *ElevatedButton* is a button and it replaces the deprecated *RaisedButton*. To display an *ElevatedButton*
 
@@ -86,7 +94,7 @@ ElevatedButton( onPressed: ..., child: ...)
 - **onPressed**: it accepts a function as a value, which is called when the button is **pressed**.
 - **child**: it accepts a *text* or an *icon* to display on the button. 
 ---
-The following is a simple example that displays what we have learned thus far in this lesson,
+The following is a simple example that uses what we have learned thus far in this lesson,
 
 ```dart
 import 'package:flutter/material.dart';
@@ -94,6 +102,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -101,18 +110,43 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('First App'),
+          title: const Text(
+            'First App',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
-        body: Column(
-          children: [
-            Text('What is your name?'),
-            ElevatedButton(onPressed: null, child: Text('submit'))
-          ],
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.blue, Colors.purple],
+            ),
+          ),
+          child: Center(
+            child: Column(
+              children: const [
+                Text(
+                  'What is your name?',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+                ElevatedButton(
+                    onPressed: null,
+                    child: Text(
+                      'submit',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ))
+              ],
+            ),
+          ),
         ),
       ),
     );
   }
 }
+
 ```
 The above code displays the following,
 
@@ -129,3 +163,6 @@ This lesson on Flutter widgets covers the Scaffold widget for structuring other 
 
 ![https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true](https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true)
 
+- Given the following code,
+  
+  ```dart
