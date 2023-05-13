@@ -159,9 +159,11 @@ This lesson covers different widgets such as the Scaffold widget for structuring
 ---
 # Tutorial
 - Reformat the last code to organize the widgets *horizontally* (Hint: lookup *Row*)
+- Reformat the last code to change the background color of the *Scaffold* to **Red**.
+- Reformat the last code to change the *AppBar* color to **Red**.
 - Reformat the last code to change the start and end colors of the gradient effect (Hint: lookup *begin* and *end* in *LinearGradient*)
+- Reformat the last code to create a new widget called *MyButton* that replaces the *ElevatedButton* widget in the code. However, it should accept the *text* as a parameter. Then, use the *MyButton* widget to create two buttons: *Submit* and *Cancel*.
 - In Flutter, it is considered a good practice to split the classes into different **.dart** files. Thus, create a new file called *my_app.dart* and move the *MyApp* class to it. Then, import the *my_app.dart* file into the *main.dart* file and fix any errors.
-- Reformat the last code to create a new widget called *MyButton* that returns the *ElevatedButton* widget in the code. However, it should accept the *text* as a parameter. Then, use the *MyButton* widget to create two buttons: *Submit* and *Cancel*.
 - Write the code to generate the following snapshot
 
 ![https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true](https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true)
