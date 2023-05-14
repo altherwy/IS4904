@@ -11,7 +11,7 @@ The *assets* folder in this case is located in the root directory of the project
 Image.asset('assets/images/image_name.jpg'),
 ```
 Note that after the *pubspec.yaml* file is changed, you need to click on *Pub get* to update the project dependencies.
- 
+
 ## Buttons
 In Flutter, there are many types of button. [Lecture Three](https://github.com/altherwy/IS4904/blob/main/Lecture%20Three/Lecture%20Three.md) introduces one type of button called *ElevatedButton*. *ElevatedButton* is a button that has a shadow. The following code shows how to create a button using the *ElevatedButton* widget.
 ```dart
@@ -121,7 +121,8 @@ ElevatedButton(
   ),
 );
 ```
-
+# Summary
+In this lesson, you learned how to add assets to a Flutter project, and how to create different types of buttons. You also learned how to change the style of a button, and how to add padding to a widget.
 
 # Tutorial
 - Change the width and height of an image to 200 pixels both.
