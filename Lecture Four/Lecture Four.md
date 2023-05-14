@@ -130,5 +130,5 @@ In this lesson, you learned how to add assets to a Flutter project, and how to c
 - Create a function called *cancel* that prints *Cancel button is clicked*, and pass it to the *onPressed* parameter of the *OutlinedButton* widget created in the previous step.
 - Change the background color of the *OutlinedButton* widget to *Colors.purple*.
 - Add a padding of 10 pixels to the *OutlinedButton* widget at the **top and bottom** only.
-- Add a padding of 10 pixels to the *OutlinedButton* widget using *SizedBox* widget.
+- Add a padding of 60 pixels to the *OutlinedButton* widget using *SizedBox* widget.
 
