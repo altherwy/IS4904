@@ -157,7 +157,7 @@ The above code displays the following,
 This lesson covers different widgets such as the Scaffold widget for structuring other widgets, the Text widget for displaying text, the Column widget for organizing widgets vertically, and the ElevatedButton widget for creating buttons.To learn more about widgets, check out the official [widget catalog](https://docs.flutter.dev/ui/widgets).
 
 ---
-# Tutorial
+# Exercises
 - Reformat the last code to organize the widgets *horizontally* (Hint: lookup *Row*)
 - Reformat the last code to change the background color of the *Scaffold* to **Red**.
 - Reformat the last code to change the *AppBar* color to **Red**.

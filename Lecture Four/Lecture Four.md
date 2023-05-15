@@ -124,7 +124,7 @@ ElevatedButton(
 # Summary
 In this lesson, you learned how to add assets to a Flutter project, and how to create different types of buttons. You also learned how to change the style of a button, and how to add padding to a widget.
 
-# Tutorial
+# Exercises
 - Change the width and height of an image to 200 pixels both.
 - Create an *OutlinedButton* widget that displays the text *Cancel*.
 - Create a function called *cancel* that prints *Cancel button is clicked*, and pass it to the *onPressed* parameter of the *OutlinedButton* widget created in the previous step.

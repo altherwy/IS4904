@@ -54,3 +54,6 @@ class Counter extends StatefulWidget {
 
 }
 ```
+# Exercises
+- Create a *StatefulWidget* that displays an image. The image should be centered on the screen. The image should change to another image when the user presses a button. You need to add five different images in the *assets* folder. When the user reaches the last image, the image should change back to the first image.
+- Reformat the code from the previous exercise to display the images in a random order. In other words, the images should be displayed in a random order every time the user presses the button.
