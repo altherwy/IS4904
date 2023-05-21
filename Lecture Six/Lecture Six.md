@@ -195,25 +195,107 @@ We can use the *Hero* widget to animate the transition between two routes. The *
 ```dart
 // my_button.dart
 import 'package:flutter/material.dart';
+import 'package:is4904_lecture1/second_route.dart';
+
 class MyButton extends StatelessWidget {
-  const MyButton(this.textValue,  {super.key});
-  final String textValue;
+  const MyButton(this.imagePath, {super.key});
+  final String imagePath;
+
   @override
   Widget build(BuildContext context) {
     return Hero(
       tag: 'dice',
       child: TextButton(
-            onPressed: null,
-            child: Image.asset(
-              textValue,
-              height: 200,
-              width: 200,
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => SecondRoute.imageOnly(imagePath),
             ),
-          ),
+          );
+        },
+        child: Image.asset(
+          imagePath,
+          height: 200,
+          width: 200,
+        ),
+      ),
     );
   }
 }
 ```
+```dart
+// second_route.dart
+import 'package:flutter/material.dart';
+
+class SecondRoute extends StatelessWidget {
+  const SecondRoute(this.imagePath, this.rollCounter, {Key? key})
+      : super(key: key);
+
+  const SecondRoute.imageOnly(this.imagePath, {Key? key})
+      : rollCounter = 0,
+        super(key: key);
+
+  final String imagePath;
+  final int rollCounter;
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [Colors.blueGrey, Colors.purple],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Hero(
+                  tag: 'dice',
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Image.asset(
+                      imagePath,
+                      height: 300,
+                      width: 300,
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 20),
+                Text(
+                  'This dice was rolled $rollCounter times',
+                  style: const TextStyle(
+                    color: Colors.yellow,
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  child: const Text('Go back to the previous page'),
+                )
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
+
+Note that, the *tag* of the *Hero* widget in the *SecondRoute* widget must be the same as the *tag* of the *Hero* widget in the *MyButton* widget. Otherwise, the animation will not work.
+
 # Exercise
 - Modify the *SecondRoute* widget to display the image of the dice that was rolled in the *main* route. For example, if the main *route* shows a *dic-3* image, the *SecondRoute* widget should display the same image.
 - Modify the *SecondRoute* widget to display the number of times the dice was rolled in the *main* route. For example, if the dice was rolled 5 times in the *main* route, the *SecondRoute* widget should display the number 5.
