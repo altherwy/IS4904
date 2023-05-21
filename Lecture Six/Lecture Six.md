@@ -190,6 +190,30 @@ ElevatedButton(
 .
 .
 ```
+# Navigation with Hero Animation
+We can use the *Hero* widget to animate the transition between two routes. The *Hero* widget takes a *tag* as a parameter. The *tag* is used to identify the *Hero* widget. The *Hero* widget is used to wrap a widget that is displayed in both the current and the next route. For example, we can modify the *MyButton* widget to use the *Hero* widget,
+```dart
+// my_button.dart
+import 'package:flutter/material.dart';
+class MyButton extends StatelessWidget {
+  const MyButton(this.textValue,  {super.key});
+  final String textValue;
+  @override
+  Widget build(BuildContext context) {
+    return Hero(
+      tag: 'dice',
+      child: TextButton(
+            onPressed: null,
+            child: Image.asset(
+              textValue,
+              height: 200,
+              width: 200,
+            ),
+          ),
+    );
+  }
+}
+```
 # Exercise
 - Modify the *SecondRoute* widget to display the image of the dice that was rolled in the *main* route. For example, if the main *route* shows a *dic-3* image, the *SecondRoute* widget should display the same image.
 - Modify the *SecondRoute* widget to display the number of times the dice was rolled in the *main* route. For example, if the dice was rolled 5 times in the *main* route, the *SecondRoute* widget should display the number 5.
