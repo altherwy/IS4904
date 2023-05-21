@@ -171,7 +171,7 @@ class SecondRoute extends StatelessWidget {
 }
 
 ```
-Now, we reformat our *DiceRoller* widget to use the *Navigator* widget to navigate to the *SecondRoute* widget,
+Now, we modify our *DiceRoller* widget to use the *Navigator* widget to navigate to the *SecondRoute* widget,
 ```dart
 // dice_roller.dart
 .
@@ -192,31 +192,4 @@ ElevatedButton(
 ```
 # Exercise
 - Modify the *SecondRoute* widget to display the image of the dice that was rolled in the *main* route. For example, if the main *route* shows a *dic-3* image, the *SecondRoute* widget should display the same image.
-```dart
-// dice_image.dart
-import 'package:flutter/material.dart';
-class DiceImage extends StatelessWidget {
-  const DiceImage(this.imagePath, {super.key});
-  final String imagePath;
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          colors: [Colors.blueGrey, Colors.purple],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-      ),
-      child: Center(
-        child: Image.asset(
-          imagePath,
-          height: 200,
-          width: 200,
-        ),
-      ),
-    );
-  }
-}
-```
-
+- Modify the *SecondRoute* widget to display the number of times the dice was rolled in the *main* route. For example, if the dice was rolled 5 times in the *main* route, the *SecondRoute* widget should display the number 5.
