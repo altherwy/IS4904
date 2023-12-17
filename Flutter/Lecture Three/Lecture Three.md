@@ -167,7 +167,5 @@ This lesson covers different widgets such as the Scaffold widget for structuring
 - Write the code to generate the following snapshot
 
 ![https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true](https://github.com/altherwy/IS4904/blob/main/pics/Row%20and%20Column%20widgets.jpg?raw=true)
-
--
   
   ```dart
